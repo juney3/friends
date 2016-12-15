@@ -1,0 +1,8 @@
+<div>
+	<h2>Are you sure you want to delete this friend?</h2>
+	<p>First Name: {{friend.first_name}} </p>
+	<p>Last Name: {{friend.last_name}}</p>
+	<p>Birthday: {{friend.birthday | date:'MM/dd/yyyy'}}</p>
+	<button value="Yes" ng-click="delete(friend)">Delete</button> 
+	<a href="/"><button value="No">Cancel</button></a>
+</div>
